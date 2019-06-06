@@ -7,10 +7,8 @@ const styles = StyleSheet.create({
     textAlign: 'center'
   },
   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F7F9F9'
+    height: '100%',
+    width: '100%',
   }
 });
 
