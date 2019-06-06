@@ -31,8 +31,7 @@ class Login extends Component {
   handlePress(e) {  
     e.preventDefault()
     this.fetchData()
-    // console.warn("mobile No and password",this.state.mobileNo +","+this.state.password)
-    // this.props.navigation.navigate("DashBoard")
+    this.props.navigation.navigate("DashBoard");
   }
   render() {
     return (
