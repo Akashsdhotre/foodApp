@@ -34,7 +34,7 @@ class Registration extends Component {
           <TouchableOpacity
             activeOpacity={0.6}
             style={styles.buttonContainer}
-            onPress={() => this.props.navigation.navigate("Login")}
+            onPress={() => this.props.navigation.navigate("DashBoard")}
           >
             <Text style={styles.buttonText}>Sign Up</Text>
           </TouchableOpacity>

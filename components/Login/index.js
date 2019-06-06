@@ -45,31 +45,36 @@ class Login extends Component {
            <Text style={styles.title}>Food Delivery App</Text>
         </View>
         <View style={styles.formContainer}></View>
-        
           <TextInput 
-          style={styles.input}
-          placeholder="Mobile No."
-          placeholderTextColor= "rgba(130,130,130,0.7)" 
-          returnKeyType="next"
-          keyboardType="phone-pad"
-          onChangeText={ text => this.setState({mobileNo:text}) }
+            style={styles.input}
+            placeholder="Mobile No."
+            placeholderTextColor= "rgba(130,130,130,0.7)" 
+            returnKeyType="next"
+            keyboardType="phone-pad"
+            onChangeText={ text => this.setState({mobileNo:text}) }
           />
           <TextInput 
-          style={styles.input}
-          placeholder="Password"
-          placeholderTextColor= "rgba(130,130,130,0.7)" 
-          returnKeyType="next"
-          secureTextEntry
-          onChangeText={ text => this.setState({password:text}) }
+            style={styles.input}
+            placeholder="Password"
+            placeholderTextColor= "rgba(130,130,130,0.7)" 
+            returnKeyType="next"
+            secureTextEntry
+            onChangeText={ text => this.setState({password:text}) }
           />
 
           <TouchableOpacity
             activeOpacity={0.6}
             style={ styles.buttonContainer}
             onPress={ handlePress = this.handlePress}
-            >
+          >
             <Text style={styles.buttonText}>Login</Text>
-            </TouchableOpacity>
+          </TouchableOpacity>
+            <Text 
+              onPress={() => this.props.navigation.navigate("Registration")}
+              style={{color: "#000", marginBottom: 30}}
+            >
+              Create New Account ?
+          </Text>
           
       </KeyboardAvoidingView>
     );
