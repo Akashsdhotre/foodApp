@@ -5,15 +5,18 @@ INJECTED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidMan
 INJECTED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml:1:1-30:12
 INJECTED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml:1:1-30:12
 MERGED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml:1:1-30:12
+MERGED from [:react-native-android-location-enabler] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-android-location-enabler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-android-open-settings] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-android-open-settings/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-maps] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:react-native-vector-icons] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.59.9] /home/sachin/.gradle/caches/transforms-1/files-1.1/react-native-0.59.9.aar/c055ce218a79e02e6ccea8bb35aa5026/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1217835be7afea5710ce8d4c035a2165/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/751aae0223765d2f5f6e07a8f08a3ba2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/48de9549997399d8338b6d29e0e28369/AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.android.gms:play-services-base:16.1.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-base-16.1.0.aar/f50807af7df996c5df670cb6c92537f0/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/sachin/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/c237421908c08e3acb64173ae8296194/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/6f156c6460cc7631f4b8ca61e2c5e5a2/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f66e461cb2db44f6026740083180f71d/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/ea82020a18a7cfbe2e6b3d6e2cd5098d/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a095633b56ddc3589560c36eab1605e9/AndroidManifest.xml:17:1-31:12
@@ -94,12 +97,16 @@ MERGED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManif
 MERGED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml:8:5-28:19
 MERGED from [com.facebook.react:react-native:0.59.9] /home/sachin/.gradle/caches/transforms-1/files-1.1/react-native-0.59.9.aar/c055ce218a79e02e6ccea8bb35aa5026/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.59.9] /home/sachin/.gradle/caches/transforms-1/files-1.1/react-native-0.59.9.aar/c055ce218a79e02e6ccea8bb35aa5026/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/751aae0223765d2f5f6e07a8f08a3ba2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/751aae0223765d2f5f6e07a8f08a3ba2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/48de9549997399d8338b6d29e0e28369/AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/48de9549997399d8338b6d29e0e28369/AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-base:16.1.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-base-16.1.0.aar/f50807af7df996c5df670cb6c92537f0/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:16.1.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-base-16.1.0.aar/f50807af7df996c5df670cb6c92537f0/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/sachin/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/c237421908c08e3acb64173ae8296194/AndroidManifest.xml:7:5-11:19
 MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/sachin/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/c237421908c08e3acb64173ae8296194/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/6f156c6460cc7631f4b8ca61e2c5e5a2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/6f156c6460cc7631f4b8ca61e2c5e5a2/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f66e461cb2db44f6026740083180f71d/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f66e461cb2db44f6026740083180f71d/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/ea82020a18a7cfbe2e6b3d6e2cd5098d/AndroidManifest.xml:22:5-26:19
@@ -171,6 +178,8 @@ uses-sdk
 INJECTED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-android-location-enabler] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-android-location-enabler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-android-location-enabler] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-android-location-enabler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-android-open-settings] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-android-open-settings/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-android-open-settings] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-android-open-settings/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-maps] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -183,12 +192,16 @@ MERGED from [com.facebook.react:react-native:0.59.9] /home/sachin/.gradle/caches
 MERGED from [com.facebook.react:react-native:0.59.9] /home/sachin/.gradle/caches/transforms-1/files-1.1/react-native-0.59.9.aar/c055ce218a79e02e6ccea8bb35aa5026/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1217835be7afea5710ce8d4c035a2165/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1217835be7afea5710ce8d4c035a2165/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/751aae0223765d2f5f6e07a8f08a3ba2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/751aae0223765d2f5f6e07a8f08a3ba2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/48de9549997399d8338b6d29e0e28369/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/48de9549997399d8338b6d29e0e28369/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:16.1.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-base-16.1.0.aar/f50807af7df996c5df670cb6c92537f0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:16.1.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-base-16.1.0.aar/f50807af7df996c5df670cb6c92537f0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/sachin/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/c237421908c08e3acb64173ae8296194/AndroidManifest.xml:5:5-43
 MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/sachin/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/c237421908c08e3acb64173ae8296194/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/6f156c6460cc7631f4b8ca61e2c5e5a2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/6f156c6460cc7631f4b8ca61e2c5e5a2/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f66e461cb2db44f6026740083180f71d/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f66e461cb2db44f6026740083180f71d/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/ea82020a18a7cfbe2e6b3d6e2cd5098d/AndroidManifest.xml:20:5-44
