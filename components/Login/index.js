@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styles from './styles'
-
 import {
   View,
   Text,
@@ -25,7 +24,7 @@ class Login extends Component {
   }
 
   fetchData(){
-    console.warn("mobile No and password",this.state.mobileNo +","+this.state.password)
+    //console.warn("mobile No and password",this.state.mobileNo +","+this.state.password)
   }
 
   handlePress(e) {  

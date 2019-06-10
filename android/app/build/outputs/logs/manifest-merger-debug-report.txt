@@ -5,12 +5,14 @@ INJECTED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidMan
 INJECTED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml:1:1-30:12
 INJECTED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml:1:1-30:12
 MERGED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml:1:1-30:12
+MERGED from [:lottie-react-native] /home/sachin/Documents/sqr/foodApp/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-android-location-enabler] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-android-location-enabler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-android-open-settings] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-android-open-settings/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-maps] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:react-native-vector-icons] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.59.9] /home/sachin/.gradle/caches/transforms-1/files-1.1/react-native-0.59.9.aar/c055ce218a79e02e6ccea8bb35aa5026/AndroidManifest.xml:2:1-13:12
+MERGED from [com.airbnb.android:lottie:2.5.6] /home/sachin/.gradle/caches/transforms-1/files-1.1/lottie-2.5.6.aar/7638e04e17426177fdfac907bf2265c5/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1217835be7afea5710ce8d4c035a2165/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/751aae0223765d2f5f6e07a8f08a3ba2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/48de9549997399d8338b6d29e0e28369/AndroidManifest.xml:17:1-38:12
@@ -75,6 +77,8 @@ INJECTED from /home/sachin/Documents/sqr/foodApp/android/app/src/debug/AndroidMa
 		ADDED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:lottie-react-native] /home/sachin/Documents/sqr/foodApp/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:lottie-react-native] /home/sachin/Documents/sqr/foodApp/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
 MERGED from [:react-native-maps] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
 MERGED from [:react-native-maps] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/48de9549997399d8338b6d29e0e28369/AndroidManifest.xml:24:5-67
@@ -97,6 +101,8 @@ MERGED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManif
 MERGED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml:8:5-28:19
 MERGED from [com.facebook.react:react-native:0.59.9] /home/sachin/.gradle/caches/transforms-1/files-1.1/react-native-0.59.9.aar/c055ce218a79e02e6ccea8bb35aa5026/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.59.9] /home/sachin/.gradle/caches/transforms-1/files-1.1/react-native-0.59.9.aar/c055ce218a79e02e6ccea8bb35aa5026/AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:2.5.6] /home/sachin/.gradle/caches/transforms-1/files-1.1/lottie-2.5.6.aar/7638e04e17426177fdfac907bf2265c5/AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:2.5.6] /home/sachin/.gradle/caches/transforms-1/files-1.1/lottie-2.5.6.aar/7638e04e17426177fdfac907bf2265c5/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/751aae0223765d2f5f6e07a8f08a3ba2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/751aae0223765d2f5f6e07a8f08a3ba2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/48de9549997399d8338b6d29e0e28369/AndroidManifest.xml:30:5-36:19
@@ -178,6 +184,8 @@ uses-sdk
 INJECTED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/sachin/Documents/sqr/foodApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:lottie-react-native] /home/sachin/Documents/sqr/foodApp/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:lottie-react-native] /home/sachin/Documents/sqr/foodApp/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-android-location-enabler] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-android-location-enabler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-android-location-enabler] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-android-location-enabler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-android-open-settings] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-android-open-settings/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -190,6 +198,8 @@ MERGED from [:react-native-gesture-handler] /home/sachin/Documents/sqr/foodApp/n
 MERGED from [:react-native-gesture-handler] /home/sachin/Documents/sqr/foodApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.59.9] /home/sachin/.gradle/caches/transforms-1/files-1.1/react-native-0.59.9.aar/c055ce218a79e02e6ccea8bb35aa5026/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.59.9] /home/sachin/.gradle/caches/transforms-1/files-1.1/react-native-0.59.9.aar/c055ce218a79e02e6ccea8bb35aa5026/AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:2.5.6] /home/sachin/.gradle/caches/transforms-1/files-1.1/lottie-2.5.6.aar/7638e04e17426177fdfac907bf2265c5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:2.5.6] /home/sachin/.gradle/caches/transforms-1/files-1.1/lottie-2.5.6.aar/7638e04e17426177fdfac907bf2265c5/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1217835be7afea5710ce8d4c035a2165/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/sachin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1217835be7afea5710ce8d4c035a2165/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/sachin/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/751aae0223765d2f5f6e07a8f08a3ba2/AndroidManifest.xml:5:5-44

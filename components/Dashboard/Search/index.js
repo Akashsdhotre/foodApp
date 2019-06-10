@@ -4,63 +4,83 @@ import {
   View,
   Text,
   Platform,
-  Alert
+  Alert,
+  Dimensions
 } from 'react-native';
 import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
-import AndroidOpenSettings from 'react-native-android-open-settings';
-import RNAndroidLocationEnabler from 'react-native-android-location-enabler';
 import styles from './styles';
+
+const { width, height } = Dimensions.get('window');
+const ASPECT_RATIO    = width / height;
+const LATITUDE        = null;
+const LONGITUDE       = null;
+const LATITUDE_DELTA  = 0.0122;
+const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 
 class Search extends Component {
   constructor(props) {
     super(props);
   
     this.state = {
-      latitude: null,
-      longitude: null
+      region: {
+        latitude: LATITUDE,
+        longitude: LONGITUDE,
+        latitudeDelta: LATITUDE_DELTA,
+        longitudeDelta: LONGITUDE_DELTA
+      }
     };
   }
   
   componentDidMount() {
-    onLocationPressed = () => {
-      if (Platform.OS === 'android') {
-        RNAndroidLocationEnabler.promptForEnableLocationIfNeeded({interval: 10000, fastInterval: 5000})
-        .then(data => {
-        }).catch(err => {
-          alert("Error " + err.message + ", Code : " + err.code);
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        this.setState({
+          region: {
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude,
+            latitudeDelta: LATITUDE_DELTA,
+            longitudeDelta: LONGITUDE_DELTA,
+            accuracy: position.coords.accuracy
+          }
         });
+      },
+      (error) => alert(error.message),
+      { enableHighAccuracy: true, timeout: 30000, maximumAge: 2000}
+    );
+
+    this.watchID = navigator.geolocation.watchPosition((position) => {
+      const newRegion = {
+        latitude: position.coords.latitude,
+        longitude: position.coords.longitude,
+        latitudeDelta: LATITUDE_DELTA,
+        longitudeDelta: LONGITUDE_DELTA,
+        accuracy: position.coords.accuracy
       }
-    }
-    onLocationPressed();
+      this.setState({newRegion});
+    });
+  }
+
+  componentWillUnmount() {
+    navigator.geolocation.clearWatch(this.watchID);
   }
 
   render() {
-    navigator.geolocation.getCurrentPosition(position => {
-      this.setState({
-        latitude: position.coords.latitude,
-        longitude: position.coords.longitude,
-        error: null,
-      });
-    },
-    error => this.setState({ error: error.message }),
-    { enableHighAccuracy: true, timeout: 20000, maximumAge: 2000}
-    );
-
-    let { latitude, longitude } = this.state;
+    let { latitude, longitude } = this.state.region;
     if(latitude !== null && longitude !== null) {
       return (
-        <MapView
-          provider={ PROVIDER_GOOGLE }
-          style={ styles.map }
-          initialRegion={{
-            latitude: latitude,
-            longitude: longitude,
-            latitudeDelta: 0.015,
-            longitudeDelta: 0.021,
-          }}
-        >
-          <Marker coordinate={this.state} />
-        </MapView>
+        <View style={styles.container}>
+          <MapView
+            provider={ PROVIDER_GOOGLE }
+            style={styles.map}
+            region={this.state.region}
+            showsUserLocation={true}
+          >
+            <Marker 
+              coordinate={this.state.region}
+              pinColor='#d32f2f'
+            />
+          </MapView>
+        </View>
       );
     } else {
       return (
